@@ -1,0 +1,24 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "run mico_test",
+            "command": "/usr/bin/gcc",
+            "args": [
+                "-g",
+                "/home/jk/malloclab-handout/test/mico_test.c",
+                "/home/jk/malloclab-handout/memlib.c",
+                "-o",
+                "/home/jk/malloclab-handout/test/mico_test"
+            ],
+            "options": {
+                "cwd": "/usr/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build"
+        },
+    ],
+    "version": "2.0.0"
+}
